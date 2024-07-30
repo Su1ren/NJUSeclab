@@ -1,0 +1,260 @@
+[TAINT]		bytes tainted from 0x80f2e90 to 0x80f3290
+8054fe3:	[READ in 80f2e90][T] insDis: movzx eax, byte ptr [eax]
+805816e:	[SPREAD][T] insDis:cmp eax, 0xffffffff
+8058173:	[READ in 80ed324][F] insDis: mov eax, dword ptr [ebx+0x4]
+805817c:	[READ in 80f2e90][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][T] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee320][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e91][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee321][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e92][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee322][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e93][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee323][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e94][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee324][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e95][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee325][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e96][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee326][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e97][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee327][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e98][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee328][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e99][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee329][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9a][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee32a][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9b][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee32b][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9c][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049777:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd5b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in 80ee32c][T] insDis:mov byte ptr [edx], al sink point: ffffcd50
+804f99c:	[READ in ffffcd48][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9d][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd5b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd50
+8049797:	[READ in ffffcd70][F] insDis: mov eax, dword ptr [ebp+0x8]
+80497c4:	[READ in 80ee320][T] insDis: movzx eax, byte ptr [0x80ee320]
+80497cb:	[SPREAD][T] insDis:movsx edx, al
+80497ce:	[READ in 80ee321][T] insDis: movzx eax, byte ptr [0x80ee321]
+80497da:	[READ in 80ee323][T] insDis: movzx eax, byte ptr [0x80ee323]
+80497e4:	[SPREAD][T] insDis:lea ecx, ptr [edx+eax*1]
+80497e7:	[READ in 80ee324][T] insDis: movzx eax, byte ptr [0x80ee324]
+80497f1:	[READ in 80ee32c][T] insDis: mov eax, dword ptr [0x80ee32c]
+8049800:	[WRITE in 80ee4b4][T] insDis:mov dword ptr [eax], edx sink point: ffffcd80
+8049802:	[SPREAD][F] insDis:mov eax, 0x0
+8057ec9:	[SPREAD][F] insDis:test eax, eax
+8057ee7:	[READ in 80ed328][F] insDis: mov edx, dword ptr [esi+0x8]
+8057f45:	[SPREAD][F] insDis:mov ecx, edi
+[TAINT]		bytes tainted from 0x80f2e90 to 0x80f3290
+8054fe3:	[READ in 80f2e90][T] insDis: movzx eax, byte ptr [eax]
+805816e:	[SPREAD][T] insDis:cmp eax, 0xffffffff
+8058173:	[READ in 80ed324][F] insDis: mov eax, dword ptr [ebx+0x4]
+805817c:	[READ in 80f2e90][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][T] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd76][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e91][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd77][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e92][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd78][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e93][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd79][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e94][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7a][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e95][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7b][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e96][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7c][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e97][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7d][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e98][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7e][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e99][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd7f][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9a][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd80][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9b][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd81][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9c][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd82][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9d][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd83][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9e][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd84][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2e9f][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd85][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea0][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd86][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea1][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd87][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea2][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd88][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea3][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd89][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea4][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8a][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea5][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8b][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea6][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8c][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea7][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8d][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea8][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8e][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2ea9][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049777:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
+804977c:	[READ in ffffcd4b][T] insDis: movzx eax, byte ptr [ebp-0xd]
+8049780:	[WRITE in ffffcd8f][T] insDis:mov byte ptr [edx], al sink point: ffffcd40
+804f99c:	[READ in ffffcd38][F] insDis: mov eax, dword ptr [esp]
+80545d6:	[READ in 80f2eaa][T] insDis: movzx eax, byte ptr [eax]
+804978b:	[WRITE in ffffcd4b][F] insDis:mov byte ptr [ebp-0xd], al sink point: ffffcd40
+8049797:	[READ in ffffcd60][F] insDis: mov eax, dword ptr [ebp+0x8]
